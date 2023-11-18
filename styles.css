@@ -1,0 +1,43 @@
+
+#canvas {
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    background-color: black;
+}
+
+.viseme-form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+}
+
+select {
+    padding: 6px 10px 6px 10px;
+    border-radius: 6px;
+}
+
+.text-field {
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+.play-button {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgb(67, 133, 255);
+    padding: 14px 34px 14px 34px;
+    color: rgb(255, 255, 255);
+    transition: background-color 200ms ease-out;
+}
+
+.play-button:hover{
+    background-color: rgb(137, 202, 255);
+}
+
+.play-button:active{
+    background-color: rgb(17, 65, 155);
+}
